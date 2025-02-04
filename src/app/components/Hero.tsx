@@ -8,9 +8,9 @@ import {
   CarouselItem,
 } from "@/app/components/Ui/carousel";
 import Link from "next/link"
-import { airMax } from "@/app/Cart/Data/detail";
-import { client } from "@/sanity/lib/client";
-import { urlFor } from "@/sanity/lib/client";
+
+import { client } from "../../sanity/lib/client";
+import { urlFor } from "../../sanity/lib/client";
 
 
 export default async function CarouselSize() {
